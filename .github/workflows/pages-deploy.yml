@@ -26,5 +26,4 @@ jobs:
           bundler-cache: true
 
       - name: Deploy
-        run: git push -f origin master
         run: bash tools/deploy.sh
